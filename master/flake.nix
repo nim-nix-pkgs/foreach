@@ -11,7 +11,6 @@
   inputs.src-foreach-master.ref   = "refs/heads/master";
   inputs.src-foreach-master.owner = "disruptek";
   inputs.src-foreach-master.repo  = "foreach";
-  inputs.src-foreach-master.dir   = "";
   inputs.src-foreach-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

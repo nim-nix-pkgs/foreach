@@ -11,7 +11,6 @@
   inputs.src-foreach-1_0_1.ref   = "refs/tags/1.0.1";
   inputs.src-foreach-1_0_1.owner = "disruptek";
   inputs.src-foreach-1_0_1.repo  = "foreach";
-  inputs.src-foreach-1_0_1.dir   = "";
   inputs.src-foreach-1_0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
